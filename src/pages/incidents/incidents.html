@@ -1,0 +1,41 @@
+<!--
+  Generated template for the IncidentsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button menuToggle icon-only>
+        <ion-icon name='menu'></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title>incidents</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+</ion-content>
+<ion-footer>
+  <ion-buttons>
+
+    <ion-list>
+      <ion-item>
+        <ion-select (onChange)="onChange($event)">
+          <ion-option value="queud" selected>Queud</ion-option>
+          <ion-option value="initial">Initial</ion-option>
+          <ion-option value="followUp">FollowUp</ion-option>
+          <ion-option value="updated24">Last Updated 24H</ion-option>
+          <ion-option value="closed24">Last Closed 24H</ion-option>
+          <ion-option value="deleted7d">Deleted 7D</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </ion-buttons>
+</ion-footer>

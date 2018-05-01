@@ -2,5 +2,11 @@
   "name": "soc3d",
   "app_id": "",
   "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/CyberCaseApi",
+      "proxyUrl": "http://10.20.21.250/CyberCaseApi"
+    }
+  ],
   "integrations": {}
 }
